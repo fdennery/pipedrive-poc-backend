@@ -144,6 +144,5 @@ router.get ('/google/callback', async (req, res ) => {
     }
 ); 
 
-// refresh token : 1//03PO_dcyj4f4XCgYIARAAGAMSNwF-L9IrH5U-rBsfNEzSzeXHi-ppHjPeJr8tFkDRE1y2nR6_17poabA4kMB6NMEG4LER-8D54AE
 
 module.exports = router;
