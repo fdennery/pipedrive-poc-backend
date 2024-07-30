@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
 const userSchema = mongoose.Schema({
-	pipedriveUserId: String,
-    googleUserId: String,
-    pipedriveToken:String,
-    googleToken:String,
-    registrationDate: Date
+	pipedrive_user_id: String,
+    google_user_id: String,
+    pipedrive_refresh_token:String,
+    google_refresh_token:String,
+    registration_date: {type:Date,default:Date.now()}
 });
 
 const User = mongoose.model('users', userSchema);
